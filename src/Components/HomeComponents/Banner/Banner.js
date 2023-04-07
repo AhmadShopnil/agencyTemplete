@@ -5,7 +5,7 @@ import TypeWriterEffect from 'react-typewriter-effect';
 
 const Banner = () => {
     return (
-        <div className='h-[550px]   flex justify-start bg-no-repeat bg-center bg-cover md:bg-contain' style={{ backgroundImage: `url(${bannerImg})`, }}>
+        <div className='h-[550px] bg-[#F5F5F7]  flex justify-start bg-no-repeat bg-center bg-cover md:bg-contain' style={{ backgroundImage: `url(${bannerImg})`, }}>
             <div className='p-4 md:px-20 md:py-16 lg:px-44 lg:py-20'>
                 <div className='w-1/2 mt-14 text-[#29303B]'>
                     <h2 className='text-start text-xl md:text-3xl font-semibold mb-2'>Midland Network</h2>
@@ -37,13 +37,13 @@ const Banner = () => {
                         </div>
 
                     </h2>
-                    <p className='text-start text-xs md:text-sm my-4'>Midland Networks started life as a telecom company and it's still the major part of our business. We have expanded our services over the years at customer request to offer related services, providing our customers with one port of call.</p>
-                    <div className='grid grid-cols-1 md:grid-cols-2  gap-2 md:gap-4 font-semibold text-sm'>
-                        <button class="w-32 border-2 text-black hover:text-[#66C4F2] hover:bg-white px-3 py-2  rounded-lg">
+                    <p className='text-start text-xs md:text-sm my-6'>Midland Networks started life as a telecom company and it's still the major part of our business. We have expanded our services over the years at customer request to offer related services, providing our customers with one port of call.</p>
+                    <div className='flex flex-col md:flex-row gap-2   font-semibold text-sm'>
+                        <button class="w-40 border-2 text-black hover:text-[#66C4F2] hover:bg-white px-3 py-3  rounded-lg">
                             ABOUT US
                         </button>
 
-                        <button class="w-32 bg-[#66C4F2] border-2 text-white hover:text-[#66C4F2] hover:bg-white py-2  rounded-lg">
+                        <button class="w-40 bg-[#66C4F2] border-2 text-white hover:text-[#66C4F2] hover:bg-white py-3  rounded-lg">
                             GET IN TOUCH
                         </button>
                     </div>
